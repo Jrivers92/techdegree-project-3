@@ -4,6 +4,7 @@
 
 * {
   font-family: 'Merriweather', serif;
+
 }
 
 body {
@@ -20,8 +21,70 @@ h1 {
 
 hr {
 	border-top: 3px double firebrick;
+}
 
+label {
+  padding-left: 150px;
+  font-weight: bold;
+
+}
 
   /* =================================
     Layout
   ==================================== */
+.form-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-left: 148px;
+}
+
+
+.form-input {
+  width: 600px;
+  height: 50px;
+  margin-left: 15px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-color: firebrick;
+}
+
+.form-row input,
+select {
+  clear: both;
+  margin-bottom: 15px;
+  float: right;
+  box-shadow: 5px 10px;
+}
+
+
+.field {
+  border: firebrick;
+}
+
+
+/* =================================
+  flexbox
+==================================== */
+.main-header,
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-row {
+display: flex;
+display: inline-block;
+flex-direction: row;
+width: 50%;
+align-content: center;
+
+}
+
+@media (min-width: 768px) {
+
+
+
+}
