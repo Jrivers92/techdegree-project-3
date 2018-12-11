@@ -15,7 +15,7 @@
   </div>
 
 <div class="main-header">
-    <h2>Signup for our  Newsletter</h2>
+    <h2 class="second-header">Signup for our  Newsletter</h2>
     <p>Get the latest news on how your code is doing right now in your inbox</p>
 </div>
 <hr><br>
@@ -26,38 +26,40 @@
 <legend class="form-title">Contact Information</legend>
 
 
+
+
     <div class="form-row">
          <label for="name">Full Name</label>
-         <input class="form-input" type="text" id="name" name="user_name" placeholder="Required" required>
+         <input  type="text" id="name" name="user_name" placeholder="Required" required>
     </div> <!-- form-row -->
 
     <div class="form-row">
         <label for="email">Email Address</label>
-        <input class="form-input" type="email" id="email" name="user_email" placeholder="Required" required>
+        <input  type="email" id="email" name="user_email" placeholder="Required" required>
     </div> <!-- form-row -->
 
     <div class="form-row">
                <label for="phone">Phone Number</label>
-               <input class="form-input" type="tel" id="phone" name="user_phone" placeholder="Phone Number">
+               <input  type="tel" id="phone" name="user_phone" placeholder="Phone Number">
     </div> <!-- form-row -->
 
     <div class="form-row">
                <label for="address">Street Address</label>
-               <input class="form-input" type="text" id="address" name="user_address" placeholder="Street Address">
+               <input  type="text" id="address" name="user_address" placeholder="Street Address">
     </div> <!-- form-row -->
 
 
 
      <div class="form-row">
                <label for="city">City</label>
-               <input class="form-input" type="text" id="city" name="user_city" placeholder="City">
+               <input  type="text" id="city" name="user_city" placeholder="City">
      </div> <!-- form-row -->
 
 
 
      <div class="form-row">
        <label for="state">State</label>
-       <select class="form-input" id="state" name="user_state">
+       <select  id="state" name="user_state">
          <option value="" disabled selected hidden>Choose State</option>
          <option value="alabama">Alabama</option>
          <option value="alaska">Alaska</option>
@@ -113,61 +115,21 @@
      </div> <!-- form-row -->
 
      <div class="form-row">
-       <label for="zip">Zip Code</label>
-       <input class="form-input" type="number" id="zip" name="user_zip" placeholder="">
+       <label class="zipcode" for="zip">Zip Code</label>
+       <input class="form-input" type="text" id="zip" name="user_zip"  maxlength="5" size="5" placeholder="">
      </div> <!-- form-row -->
      </fieldset><br>
      <hr><br>
 
+     <fieldset class="field">
+     <legend class="form-title">NewsLetter</legend>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </fieldset>
 
 </div> <!-- contact -->
 
 
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
