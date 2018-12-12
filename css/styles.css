@@ -29,7 +29,7 @@ label {
   width: 180px;
   padding-right: 12px;
   font-weight: bold;
-  text-align: left;
+
 }
 
 input {
@@ -88,6 +88,61 @@ fieldset {
 .form-input {
   width: 45%;
 }
+
+.newsletter {
+  width: 13px;
+  height: 35px;
+  padding: 5px;
+  margin: 0px 20px 0px 3px;
+  vertical-align: bottom;
+  position: relative;
+  top: 8px;
+}
+
+.box {
+  margin: 0px 20px 0px 3px;
+}
+
+
+
+
+
+input[type="radio"] {
+  width: 10%;
+  display: inline-block;
+  height: 20px;
+  margin: 0 20px 0 3px;
+  text-align: left;
+}
+
+
+
+textarea {
+  height:100px;
+  width: 98%;
+  font-size: 14pt;
+  border-color: firebrick;
+}
+
+button {
+border: 25px;
+background: firebrick;
+color: black;
+border-style: outset;
+border-color: firebrick;
+height: 90px;
+width: 100%;
+font-size: 25px;
+text-shadow:none;
+
+text-align: center;
+}
+
+button:hover{
+		color: black;
+		background-color: white;
+		border:  .1rem solid black;
+	}
 /* =================================
   flexbox
 ==================================== */
@@ -126,8 +181,7 @@ input {
   display: flex;
 }
 
-.main-header,
- {
+.main-header {
   display: flex;
   flex-direction: column;
 
@@ -158,5 +212,31 @@ p {
 .form-input {
   display: flex;
   width: 25%;
+}
+
+.check {
+  padding-left:17.9%;
+}
+
+
+
+.child_flex {
+  padding-left: 14%;
+}
+
+textarea {
+  width: 64.5%;
+  margin-left:18%;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 28%;
+  width: 65%;
+  margin-left:18%;
+  align-self: center;
+
 }
 }
