@@ -59,7 +59,7 @@
 
      <div class="form-row">
        <label for="state">State</label>
-       <select  id="state" name="user_state">
+       <select  id="state" name="user_state" >
          <option value="" disabled selected hidden>Choose State</option>
          <option value="alabama">Alabama</option>
          <option value="alaska">Alaska</option>
@@ -128,35 +128,35 @@
 
       <div class="check">
         <input type="checkbox" name="html news" class="newsletter" id="check1">
-        <label class="box">HTML News</label>
+        <label for="check1" class="box">HTML News</label>
       </div> <!-- check1 -->
 
       <div class="check">
         <input type="checkbox" name="css news" class="newsletter" id="check2">
-        <label class="box">CSS News</label>
+        <label for="check2" class="box">CSS News</label>
       </div> <!-- check2 -->
 
       <div class="check">
         <input type="checkbox" name="javascript news" class="newsletter" id="check3">
-        <label class="box">Javascript News</label>
+        <label for="check3" class="box">Javascript News</label>
       </div> <!-- check3 -->
       <br>
 
       <p>Newsletter Format</p><br>
 
-      <div class="flex">
-  								<div class=child_flex>
-  								<label class="radio">
-  								<input type="radio" name="html news" id="radio" > HTML  </label>
+      <div class="mansion">
+  								<div class="house">
+  								<input type="radio" name="html news" id="radio" >
+                  <label for="radio" class="radio">HTML</label>
   							</div>
-  							<div class="child_flex">
-  								<label class="radio">
-  								<input type="radio" name="html news" id="lastRadio" > Plain Text  </label>
+  							<div class="house">
+  								<input type="radio" name="html news" id="lastradio" >
+                  <label for="lastradio" class="radio"> Plain Text  </label>
   							</div>
   							</div>
         <br>
 
-        <p id="textareabox"> Other topics you'd like to hear about </p>
+        <label for="textarea" class="textarea"> Other topics you'd like to hear about </label>
         <textarea name="textarea"  id="textarea"></textarea>
             <button type="submit" name="submit">Sign Up</button>
 
