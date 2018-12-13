@@ -47,8 +47,17 @@ fieldset {
   border: 0px;
 }
 
+textarea:focus {
+  background: rgb(170, 120, 120);
+}
 
+input:focus {
+   border: 2px solid firebrick;
+}
 
+select:focus {
+  border: 2px solid firebrick;
+}
 
 
   /* =================================
@@ -164,18 +173,17 @@ button:hover{
 
 
 @media (min-width: 769px) {
-
-
-
   hr {
     width: 62%;
   }
 
 select {
+  
   width: 40.3%;
 }
 
 label {
+  margin: auto 0;
   justify-content: center;
 }
 
