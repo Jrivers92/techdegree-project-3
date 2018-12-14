@@ -116,7 +116,7 @@ select:focus {
 }
 
 .format {
-
+  margin: 0;
 }
 
 .box {
@@ -127,7 +127,10 @@ select:focus {
   display: flex;
   align-self: center;
   justify-content: flex-start;
+  padding-right: 100px;
+
 }
+
 
 .radio {
 margin: 0px 20px 0px 3px;
@@ -175,7 +178,7 @@ button:hover{
   cursor: pointer;
 	}
 /* =================================
-  flexbox
+  media 768
 ==================================== */
 
 
@@ -193,10 +196,9 @@ select {
   width: 40.3%;
 }
 
-label {
-  margin: auto 0;
-  justify-content: center;
-}
+
+
+
 
 input {
   width: 40%;
@@ -216,7 +218,6 @@ input {
 .main-header {
   display: flex;
   flex-direction: column;
-
   margin: 0;
   width: 100%;
 
@@ -230,6 +231,7 @@ p {
     margin: 0;
     width: 50%;
     margin-left: 18%;
+
 }
 
 .form-row {
@@ -248,15 +250,11 @@ p {
   padding-left:17.9%;
 }
 
-
-.house {
-  width: 100%;
+.mansion {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-self: center;
-  padding-left: 108px;
-  margin-top: 0px;
+  flex-flow: column;
+  width: 100%;
+  padding-right: 21%;
 }
 
 
@@ -279,3 +277,27 @@ button {
 }
 
 }
+
+/* =================================
+  media 768
+==================================== */
+@media (min-width: 1068px) {
+
+.bigger_screen {
+  width: 100%;
+  display: flex;
+  padding-right: 47%;
+  flex-flow: column;
+
+}
+
+
+
+
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
