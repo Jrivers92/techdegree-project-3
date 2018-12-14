@@ -115,6 +115,10 @@ select:focus {
   top: 8px;
 }
 
+.format {
+
+}
+
 .box {
   margin: 0px 20px 0px 3px;
 }
@@ -226,7 +230,6 @@ p {
     margin: 0;
     width: 50%;
     margin-left: 18%;
-
 }
 
 .form-row {
@@ -245,23 +248,17 @@ p {
   padding-left:17.9%;
 }
 
-#radio,
-#lastradio {
-  width: 22%;
-  margin: 0;
-}
-
-
 
 .house {
-  width: 8.9%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  text-align: left;
-  padding-left: 17.8%;
-  margin-top: 17px;
+  align-self: center;
+  padding-left: 108px;
+  margin-top: 0px;
 }
+
 
 
 .textarea_info {
